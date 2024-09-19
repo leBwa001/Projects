@@ -1,0 +1,3 @@
+C:\Users\lalam\source\repos\Clculator\Clculator\x64\Debug\Clculator.vcxproj.AssemblyReference.cache
+C:\Users\lalam\source\repos\Clculator\Clculator\x64\Debug\Clculator.MyForm.resources
+C:\Users\lalam\source\repos\Clculator\Clculator\x64\Debug\Clculator.vcxproj.GenerateResource.cache
