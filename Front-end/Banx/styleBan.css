@@ -1,0 +1,207 @@
+body{
+    margin: 0 auto;
+    font-size: 32px;
+    font-family: "Georgia";
+    font-style: italic;
+    color: rgb(79, 77, 106);
+}
+
+h1,h2,h3,h4,h5,h6{
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+}
+
+/*Container*/
+
+.container{
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+.header{
+    position: absolute;
+    margin: 60px auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banx{
+    font-size: 32px;
+    font-family: "Georgia";
+    font-style: italic;
+    color: rgb(79, 77, 106);
+}
+.nav{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.nav_link{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 30px;
+    color: rgb(79, 77, 106);
+    text-decoration: none;
+}
+
+/*Intro*/
+
+.intro
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/Banx_WebDesign_01.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;   
+}
+.intro_title{
+    font-size: 125px;
+    font-family: "Georgia";
+    color: rgb(79, 77, 106);
+    font-weight: bold;
+}
+.intro_suptitle{
+    font-size: 22px;
+    font-family: "OpenSans";
+    color: rgb(79, 77, 106);
+    font-weight: bold; 
+}
+
+.buttoms{
+    display: flex;
+    justify-content: space-between;
+}
+
+.in_btn{
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    font-family: "Georgia";
+    font-style: italic;
+    text-align: center;
+    margin:50px auto;
+}
+
+.btn1{
+    color: white;
+    background-color: rgb(79, 77, 106);
+    padding: 7px 25px;
+    text-decoration: none;
+    margin: 0 30px;
+}
+.btn2{
+    color: white;
+    background-color: #b99db0;
+    padding: 7px 25px;
+    text-decoration: none;
+    margin: 0 30px;
+}
+
+/*Section1*/
+.section1{
+    padding: 70px 0;
+    background: #ebebeb;
+}
+.section1_title{
+    font-size: 75px;
+    font-family: "Georgia";
+    color: rgb(79, 77, 106);
+    font-weight: bold;
+}
+
+.imgs{
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_imgs{
+    padding: 15px;
+}
+
+.img_title{
+    font-size: 22px;
+    text-align: left;
+}
+
+.img_text{
+    font-size: 12px;
+    text-align: left;
+}
+
+
+/*Section2*/
+
+.section2{
+    padding: 40px 0;
+    background-color: white;
+}
+
+.section2_title{
+    text-align: left;
+    font-size: 24px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content_text{
+    padding: 10px;
+    font-size: 12px;
+    text-align: left;
+}
+
+
+.btn3{
+    color: white;
+    background-color: rgb(79, 77, 106);
+    padding: 2px 15px;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0 30px;
+}
+
+.footer{
+    background-color:#505050;
+}
+
+.footer_content{
+    display: flex;
+}
+
+.footer_titles{
+    width: 50%;
+    font-size: 24px;
+    color: white;
+    padding: 20px 40px;
+}
+
+.footer_text {
+    width: 35%;
+    font-size: 12px;
+    font-family: "OpenSans";
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding: 20px 40px;
+}
+  
+

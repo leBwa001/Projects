@@ -1,0 +1,183 @@
+/*font-family: 'Lobster', cursive;
+font-family: 'Open Sans', sans-serif;*/
+body{
+    margin: 0 auto;
+}
+
+/*h1,h2,h3,h4,h5,h6{
+    text-align: center;
+}*/
+
+/*Container*/
+
+.container{
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+/*Header*/
+
+.header{
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header__inner{
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 43px;
+    font-family: 'Lobster', cursive;
+    color: #44c0c2;     
+}
+
+.nav{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;     
+}
+
+.nav_link{
+    display: inline-block;
+    color: #60646c; 
+    vertical-align: top;
+    margin: 0 20px;
+    text-decoration: none;
+    transition: color 0.1s linear;
+}
+
+.nav_link:hover{
+    color:#44c0c2;
+}
+
+/*Intro*/
+
+.intro
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/Background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+.intro_title{
+    font-size: 63px;
+    font-family: "OpenSans" sans-serif;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.16);
+}
+.intro_suptitle{
+    font-size: 23px;
+    font-family: "OpenSans" sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.btn1{
+    text-align: center;
+    font-size: 26px;
+    font-family: "OpenSans" sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;    
+}
+
+/*Section*/
+
+section{
+    background: white;
+}
+
+/*Service*/
+
+.section_icons{
+    padding: 60px;
+    display: flex;
+}
+.items{
+    flex:1 1 0;
+    padding: 25px;
+}
+.item_title{
+    margin: 20px auto;
+    font-size: 22px;
+    font-family: "OpenSans" sans-serif;
+    color: rgb(78, 82, 93);
+}
+.item_text{
+    font-size: 14px;
+    font-family: "OpenSans" sans-serif;
+    color: rgb(78, 82, 93);      
+}
+
+.btn2{
+    font-size: 14px;
+    font-family: "OpenSans" sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: #49cbcd;
+    padding: 4px 8px;
+    border-radius: 8px;      
+}
+
+/*Portfolio*/
+
+.portfolio{
+    background:#f1f1f1 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 130vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+.portfolio_title{
+    font-size: 42px;
+    font-family: "OpenSans" sans-serif;
+    color: rgb(78, 82, 93);      
+}
+
+.portfolio_items{
+    display: flex;
+    margin: 30px auto;
+}
+
+.p_items{
+    flex: 1 1 0;
+}
+
+.btn3{
+    background: #49cbcd;
+    font-size: 24px;
+    font-family: "OpenSans" sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 8px 30px; 
+    text-decoration: none;
+    margin: 0 0 40px 0;
+}
+
+
