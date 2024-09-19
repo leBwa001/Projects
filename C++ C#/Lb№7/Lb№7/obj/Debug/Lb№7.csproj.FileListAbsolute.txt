@@ -1,0 +1,7 @@
+C:\Users\lalam\source\repos\Lb№7\Lb№7\bin\Debug\Lb№7.exe.config
+C:\Users\lalam\source\repos\Lb№7\Lb№7\bin\Debug\Lb№7.exe
+C:\Users\lalam\source\repos\Lb№7\Lb№7\bin\Debug\Lb№7.pdb
+C:\Users\lalam\source\repos\Lb№7\Lb№7\obj\Debug\Lb№7.csproj.AssemblyReference.cache
+C:\Users\lalam\source\repos\Lb№7\Lb№7\obj\Debug\Lb№7.csproj.CoreCompileInputs.cache
+C:\Users\lalam\source\repos\Lb№7\Lb№7\obj\Debug\Lb№7.exe
+C:\Users\lalam\source\repos\Lb№7\Lb№7\obj\Debug\Lb№7.pdb

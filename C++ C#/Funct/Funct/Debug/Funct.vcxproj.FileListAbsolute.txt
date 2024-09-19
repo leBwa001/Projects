@@ -1,0 +1,3 @@
+C:\Users\lalam\source\repos\Funct\Funct\Debug\Funct.MyForm.resources
+C:\Users\lalam\source\repos\Funct\Funct\Debug\Funct.vcxproj.GenerateResource.cache
+C:\Users\lalam\source\repos\Funct\Funct\Debug\Funct.vcxproj.AssemblyReference.cache

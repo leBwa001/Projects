@@ -1,0 +1,7 @@
+C:\Users\lalam\source\repos\Lb№6\Lb№6\obj\Debug\Lb№6.csproj.AssemblyReference.cache
+C:\Users\lalam\source\repos\Lb№6\Lb№6\obj\Debug\Lb№6.csproj.CoreCompileInputs.cache
+C:\Users\lalam\source\repos\Lb№6\Lb№6\bin\Debug\Lb№6.exe.config
+C:\Users\lalam\source\repos\Lb№6\Lb№6\bin\Debug\Lb№6.exe
+C:\Users\lalam\source\repos\Lb№6\Lb№6\bin\Debug\Lb№6.pdb
+C:\Users\lalam\source\repos\Lb№6\Lb№6\obj\Debug\Lb№6.exe
+C:\Users\lalam\source\repos\Lb№6\Lb№6\obj\Debug\Lb№6.pdb
