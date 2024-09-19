@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <title>Профіль</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="../Css/profile.css">
+</head>
+<body>
+<div class="container">
+    <div class="form-container sign-in">
+        <form>
+            <h1>Привіт <span id="profileName"></span></h1>
+            <h1>Редагувати дані</h1>
+            <input type="text" placeholder="Імя" name="name_change" aria-invalid="true" >
+            <input type="email" placeholder="Email" name="email_change" aria-invalid="true"  >
+            <input type="password" placeholder="Пароль" name="password_change" aria-invalid="true" >
+            <button type="button">Зберегти зміни</button>
+            <button id="exit_button" type="button">Вийти з аккаунта</button>
+            <button id="delete_button"type="button">Видалити профіль</button>
+        </form>
+    </div>
+    <script src="../JS/ProfilAPI.js"></script>
+</div>
+</body>
+</html>
