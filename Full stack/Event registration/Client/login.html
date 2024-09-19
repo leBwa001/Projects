@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="../Css/regist_css.css">
+    <title>Login Page</title>
+</head>
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Create Account</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>or use your email for registeration</span>
+                <input type="text" id="reg_name" placeholder="Name" name="name" aria-invalid="true" >
+                <div class="errors" id="reg_name_err"></div>
+                <input type="email" id="reg_email" placeholder="Email" name="email" aria-invalid="true">
+                <div class="errors" id="reg_email_err"></div>
+                <input type="password" id="reg_pass" placeholder="Password" name="password" aria-invalid="true" >
+                <div class="errors" id="reg_pass_err"></div>
+                <input type="date" id="birth_data" aria-invalid="true">
+                <div class="errors" id="date_err"></div>
+                <input type="text" id="question" placeholder="Where did you hear about this event?" name="question" aria-invalid="true" >
+                <div class="errors" id="question_err"></div>
+                <button id="reg_button" type="button">Sign Up</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Sign In</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>or use your email password</span>
+                <input type="email" id="log_email" placeholder="Email" name="login_email" aria-invalid="true">
+                <div class="errors" id="log_email_err"></div>
+                <input type="password" id="log_pass" placeholder="Password" name="login_password" aria-invalid="true">
+                <div class="errors" id="log_pass_err"></div>
+                <a href="#">Forget Your Password?</a>
+                <button id="log_button" type="button">Sign In</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1 class="toggle__text">Welcome Back!</h1>
+                    <p class="toggle__text">Enter your personal details to use all of site features</p>
+                    <button class="hidden" id="login">Sign In</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1 class="toggle__text">Hello, Friend!</h1>
+                    <p class="toggle__text">Register with your personal details to use all of site features</p>
+                    <button class="hidden" id="register">Create Account</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="theme-btn-container"></div>
+    <script src="../JS/theme.js"></script>
+    <script src="../JS/reg_anim.js"></script>
+    <script src="../JS/regist_script.js"></script>
+</body>
+</html>

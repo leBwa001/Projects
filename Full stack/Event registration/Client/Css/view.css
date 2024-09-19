@@ -1,0 +1,118 @@
+:root {
+    --background: #1a1a2e;
+    --color: #ffffff;
+    --primary-color: #0f3460;
+}
+
+body{
+    margin: 10px 30px;
+    background-color:var(--background);
+    color: var(--color);
+    min-height: 100vh;
+    padding:0 20px;
+}
+
+.theme-btn-container {
+    position: absolute;
+    left: 0;
+    bottom: 2rem;
+}
+
+.theme-btn {
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.theme-btn:hover {
+    width: 40px !important;
+}
+
+.header{
+    padding: 0 50px;
+    position: absolute ;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header__inner{
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 43px;
+    font-family: 'Lobster', cursive;
+    color:var(--color);     
+}
+
+.nav{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;     
+}
+
+.nav_link{
+    display: inline-block;
+    color: var(--color); 
+    vertical-align: top;
+    margin: 0 20px;
+    text-decoration: none;
+    transition: color 0.1s linear;
+}
+
+.nav_link:hover{
+    color:var(--primary-color);
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: var(--background);
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    padding:20px 30px;
+    margin-top: 100px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+  
+.square {
+    display: block;
+    width: calc(33% - 20px);
+    height: auto;
+    background-color: var(--primary-color); 
+    color: var(--color);
+    margin: 15px; 
+    color: black;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    padding: 10px 10px;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: var(--color);
+    padding: 5px 15px;
+    border-radius: 5px;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    border: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+}
